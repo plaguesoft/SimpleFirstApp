@@ -1,0 +1,19 @@
+{
+	"name": "Core/SimpleFirstApp",
+	"description": "First Simple Project - fun with git, composer and symfony2",
+	"minimum-stability": "stable",
+	"authors": [
+		{
+			"name": "Marek Gańko",
+			"email": "ganko.marek@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-0": {
+			"App\\": "app/Core/"
+		}
+	},
+	"require": {
+		"symfony/symfony": "2.3.x-dev"
+	}
+}
